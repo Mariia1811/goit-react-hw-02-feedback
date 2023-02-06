@@ -9,9 +9,9 @@ export const StatList = styled.ul`
   list-style: none;
 `;
 export const Text = styled.p`
-display: flex;
-gap: 5px;
-align-items: center;
-margin:0;
-padding:0;
-`
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+`;

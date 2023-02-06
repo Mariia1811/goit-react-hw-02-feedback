@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { SectionWrap, Title } from './Section.styled';
 
-function Section ({title, children}) {
+function Section({ title, children }) {
   return (
     <SectionWrap>
       {title && <Title>{title}</Title>}
@@ -11,11 +11,9 @@ function Section ({title, children}) {
   );
 }
 
-Section.propTypes = { 
+Section.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node,
 };
 
 export default Section;
-
-
